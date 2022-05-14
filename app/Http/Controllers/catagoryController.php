@@ -20,7 +20,7 @@ class catagoryController extends Controller
       $catagory->name = $request->name;
      $is_saved = $catagory->save();
     if($is_saved){
-    echo "  saved successfully.";
+    echo "  my data record saved successfully.";
                }
     else{
      echo "Sorry, try again something went wrong.";

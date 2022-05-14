@@ -23,7 +23,7 @@ class ProductController extends Controller
       $product->quantity = $request->quantity;
      $is_saved = $product->save();
     if($is_saved){
-    echo " my record saved successfully.";
+    echo " my data record saved successfully.";
                }
     else{
      echo "Sorry, try again something went wrong.";
